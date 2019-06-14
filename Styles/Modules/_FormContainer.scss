@@ -1,0 +1,32 @@
+
+
+.formContainer {
+    text-align: left;
+    width: 1178px;
+    margin: 20px;
+    --border: 1px solid #444;
+    padding: 20px;
+    background-color: #333;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.formContainer_title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 30px;
+    word-wrap: break-word;
+    border-bottom: solid 1px #666;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+
+.formContainer_title-small {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    word-wrap: break-word;
+    border-bottom: solid 1px #666;
+    overflow: hidden;
+    padding-bottom: 3px;
+}

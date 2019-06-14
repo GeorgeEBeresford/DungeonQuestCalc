@@ -1,0 +1,61 @@
+@import 'Modules/Reset';
+@import 'Modules/RowContainer';
+@import 'Modules/SiteHeader';
+@import 'Modules/FormContainer';
+@import 'Modules/ResultsContainer';
+@import 'Modules/Tab';
+
+// Sins
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #dcddde;
+    background: #012d59 url("/Images/background.png") top center repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.scroll {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+.validation {
+    display: inline-block;
+    border: 1px solid #AAF;
+    background: #222;
+    padding: 4px 8px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 400px) {
+    .rowContainer_title {
+        width: 100%;
+    }
+    .rowContainer_input {
+        width: 100%;
+    }
+    .rowContainer_input[readonly] {
+        width: 100%;
+    }
+    .rowContainer_field {
+        width: 100%;
+    }
+    .rowContainer_button {
+        width: 100%;
+    }
+    .tab_button {
+        width: 100%;
+    }
+    .tab_button.active {
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,46 @@
+
+
+.siteheader {
+    width: 1178px;
+    background-image: url("/Images/heading.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 105px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    z-index: 5;
+    text-align: left;
+}
+
+.siteheader::before {
+    background: linear-gradient(to right, rgba(255, 157, 68, 0.5), rgba(255, 157, 68, 0.5)), linear-gradient(to left, rgba(255, 157, 68, 0) 200px, #ff9d44 430px);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.siteheader_logo {
+    vertical-align: middle;
+}
+
+.siteheader_url {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #232323;
+    font-size: 28px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.siteheader_url:hover {
+    text-decoration: underline;
+    color: #111;
+}

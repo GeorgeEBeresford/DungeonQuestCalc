@@ -1,0 +1,42 @@
+
+.tab_list {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tab_buttonList {
+    list-style-type: none;
+    display: block;
+}
+
+.tab_button {
+    margin-right: 2px;
+    display: inline-block;
+    width: 200px;
+    padding: 7px 12px;
+    border: 1px solid #000;
+    background: #ff9d44;
+    color: #000;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    letter-spacing: .15px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.tab_content {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.tab_button:hover {
+    cursor: pointer;
+    background: #dd6900;
+}
+
+.tab_button:active {
+    cursor: pointer;
+    background-color: #DAD;
+    border: 2px solid #88A;
+}
