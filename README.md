@@ -1,3 +1,5 @@
+This project has been archived as I have no plans to make any changes to this in the future. This tool is provided as-is and is probably out of date. Other developers are perfectly welcome to fork this repository and keep it up to date if they wish.
+
 # DungeonQuestCalc
 Calculates statistics for in-game items.
 
